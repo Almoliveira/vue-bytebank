@@ -1,2 +1,2 @@
-*.rb linguist-language=vue 
+*.rb linguist-language=Vue 
 *.javascript linguist-detectable=false 
