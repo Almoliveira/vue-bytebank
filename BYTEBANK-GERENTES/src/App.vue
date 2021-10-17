@@ -15,6 +15,11 @@
               Gerentes
             </router-link>
           </li>
+          <li class="nav-item">
+            <a href="#"
+             class="nav-link" 
+             @click.prevent="efetuarLogout">Logout</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -22,6 +27,19 @@
   </div>
 </template>
 
+
+<script>
+export default {
+  
+  methods: {
+    efetuarLogout() {
+      localStorage.removeItem('token')
+      this.$router.push({name: 'login'})
+    }
+  }
+
+}
+</script>
 <style>
 .navbar {
   background: #27ae60;
