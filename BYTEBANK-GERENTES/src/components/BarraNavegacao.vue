@@ -27,7 +27,7 @@ import BarraDeslogado from "./BarraNavegacaoQuandoDeslogado.vue";
 export default {
   components: {
     BarraLogado,
-    BarraDeslogado,
+    BarraDeslogado
   },
 
   //   methods: {
