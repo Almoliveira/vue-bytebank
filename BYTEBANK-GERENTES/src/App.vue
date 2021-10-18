@@ -16,10 +16,5 @@ components: {
   BarraNavegacao
 }
 
-}
+};
 </script>
-
-
-<style>
-
-</style>
